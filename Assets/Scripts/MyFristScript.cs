@@ -22,27 +22,24 @@ public class MyFristScript : MonoBehaviour
         
         if (Input.GetKey("w"))
         {
-            //transform.position += speed * transform.forward * Time.deltaTime;
-            //body.velocity = speed * transform.forward;
             vel += transform.forward;
         }
         if (Input.GetKey("s"))
         {
-            //transform.position += speed * transform.forward * Time.deltaTime;
-            //body.velocity = speed * transform.forward;
             vel += -transform.forward;
         }
         if (Input.GetKey("d"))
         {
-            //transform.position += speed * transform.forward * Time.deltaTime;
-            //body.velocity = speed * transform.forward;
             vel += transform.right;
         }
         if (Input.GetKey("a"))
         {
-            //transform.position += speed * transform.forward * Time.deltaTime;
-            //body.velocity = speed * transform.forward;
             vel += -transform.right;
+        }
+
+        if (Input.GetKey("e"))
+        {
+            body.AddTorque(0, 1, 0);
         }
 
         body.velocity = vel * speed;
