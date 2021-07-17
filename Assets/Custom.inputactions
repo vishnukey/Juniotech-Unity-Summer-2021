@@ -1,0 +1,33 @@
+{
+    "name": "Custom",
+    "maps": [
+        {
+            "name": "CustomMap",
+            "id": "f37f4531-934b-4c39-ada8-e0f37a9d5d1e",
+            "actions": [
+                {
+                    "name": "Interact",
+                    "type": "Button",
+                    "id": "e9b38ac8-2e2f-4091-a5e6-e3731086e311",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "02eb52d1-2181-4dcc-bf60-e8ebf8e955cc",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Interact",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
